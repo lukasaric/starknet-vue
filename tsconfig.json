@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["jest", "node"],
+    "paths": {
+      "@starknet-vue/core": ["packages/starknet-core/src"],
+      "@starknet-vue/chains": ["packages/chains/src"]
+    },
+    "noEmit": true
+  }
+}

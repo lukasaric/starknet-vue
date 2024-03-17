@@ -1,0 +1,28 @@
+{
+  "name": "starknet-vue",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
+    "typecheck": "turbo typecheck",
+    "format": "turbo run format",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@starknet-vue/eslint-config": "workspace:*",
+    "@starknet-vue/prettier-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "starknet": "^5.24.3",
+    "turbo": "latest",
+    "typescript": "5.4.2"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "get-starknet": "^3.0.1"
+  }
+}

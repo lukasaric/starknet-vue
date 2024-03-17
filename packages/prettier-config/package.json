@@ -1,0 +1,29 @@
+{
+  "name": "@starknet-vue/prettier-config",
+  "version": "0.0.0",
+  "author": "lukasaric",
+  "private": true,
+  "files": [
+    "CHANGELOG.md",
+    "./index.js"
+  ],
+  "exports": {
+    ".": "./index.cjs"
+  },
+  "main": "./index.cjs",
+  "scripts": {
+    "format": "prettier --ignore-unknown --log-level warn --check .",
+    "format:fix": "prettier --ignore-unknown --log-level warn --write .",
+    "package:lint": "publint"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "prettier-config-standard": "^7.0.0"
+  },
+  "devDependencies": {
+    "prettier": "3.0.0",
+    "publint": "0.2.7"
+  }
+}
