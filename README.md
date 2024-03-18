@@ -11,11 +11,11 @@
     </div>
     <br>
     <p align="center">
-      <a href="https://github.com/apibara/starknet-react/actions/workflows/release.yml">
+      <a href="https://github.com/apibara/starknet-vue/actions/workflows/release.yml">
         <img alt="Release Status" src="https://img.shields.io/github/actions/workflow/status/lukasaric/starknet-vue/build.yml">
       </a>
-      <a href="https://www.github.com/apibara/starknet-react">
-        <img alt="MIT LICENSE" src="https://img.shields.io/github/license/apibara/starknet-react">
+      <a href="https://www.github.com/lukasaric/starknet-vue">
+        <img alt="MIT LICENSE" src="https://img.shields.io/github/license/apibara/starknet-vue">
       </a>
     </p>
 </div>

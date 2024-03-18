@@ -1,4 +1,4 @@
-# `@starknet-react/chains`
+# `@starknet-vue/chains`
 
 References to popular Starknet chains.
 
