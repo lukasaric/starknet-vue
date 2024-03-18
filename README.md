@@ -5,7 +5,7 @@
       <a href="https://www.npmjs.com/package/@starknet-vue">
         <img width="150" alt="@starknet-vue" src="https://user-images.githubusercontent.com/2848732/226624229-7f1e5f8b-c550-47d4-85b2-5c90aee22417.png">
       </a>
-      <img aria-label="plus" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg" width="20" style="margin: 0 0.5rem;" />
+      <img aria-label="plus" width="20" style="margin: 0 0.5rem;" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg">
       <a href="https://vuejs.org/">
         <img width="90" alt="vue" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg">
       </a>
