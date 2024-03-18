@@ -5,11 +5,8 @@
       <a href="https://www.npmjs.com/package/@starknet-vue">
         <img width="150" alt="@starknet-vue" src="https://user-images.githubusercontent.com/2848732/226624229-7f1e5f8b-c550-47d4-85b2-5c90aee22417.png">
       </a>
-       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img aria-label="plus" width="20" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg">
-       &nbsp;
-      <a href="https://vuejs.org/">
-        <img width="105" alt="vue" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg">
+       <a href="https://vuejs.org/">
+        <img width="100" alt="vue" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg">
       </a>
     </div>
     <br>
