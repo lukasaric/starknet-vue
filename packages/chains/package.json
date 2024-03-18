@@ -1,0 +1,43 @@
+{
+  "name": "@starknet-vue/chains",
+  "version": "0.1.7",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --ignore-unknown --log-level warn --check .",
+    "format:fix": "prettier --ignore-unknown --log-level warn --write ."
+  },
+  "repository": "lukasaric/starknet-vue",
+  "keywords": [
+    "starknet",
+    "ethereum",
+    "l2"
+  ],
+  "devDependencies": {
+    "rimraf": "^4.1.2",
+    "tsup": "^7.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3",
+    "prettier": "3.0.0"
+  }
+}
