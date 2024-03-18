@@ -9,7 +9,7 @@
       <img aria-label="plus" width="20" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/plus.svg">
        &nbsp;
       <a href="https://vuejs.org/">
-        <img width="90" alt="vue" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg">
+        <img width="105" alt="vue" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg">
       </a>
     </div>
     <br>
