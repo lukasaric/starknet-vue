@@ -1,7 +1,13 @@
 {
   "name": "@starknet-vue/chains",
-  "version": "0.1.7",
+  "version": "0.0.1",
   "license": "MIT",
+  "repository": "lukasaric/starknet-vue",
+  "keywords": [
+    "starknet",
+    "ethereum",
+    "l2"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,12 +31,6 @@
     "format": "prettier --ignore-unknown --log-level warn --check .",
     "format:fix": "prettier --ignore-unknown --log-level warn --write ."
   },
-  "repository": "lukasaric/starknet-vue",
-  "keywords": [
-    "starknet",
-    "ethereum",
-    "l2"
-  ],
   "devDependencies": {
     "rimraf": "^4.1.2",
     "tsup": "^7.2.0"
