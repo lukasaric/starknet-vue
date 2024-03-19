@@ -18,11 +18,12 @@
     "turbo": "latest",
     "typescript": "5.4.2"
   },
+   "dependencies": {
+    "@starknet-vue/core": "workspace:*",
+    "get-starknet": "^3.0.1"
+  },
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=20"
-  },
-  "dependencies": {
-    "get-starknet": "^3.0.1"
   }
 }

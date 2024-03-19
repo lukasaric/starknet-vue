@@ -128,7 +128,7 @@ module.exports = {
     // No single if in an "else" block
     'no-lonely-if': 'error',
     // Force curly braces for control flow, including if blocks with a single statement
-    curly: ['error', 'all'],
+    curly: 'off',
     // No async function without await
     'require-await': 'error',
     // Force dot notation when possible
