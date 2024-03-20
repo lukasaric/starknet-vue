@@ -37,7 +37,8 @@
     "format": "prettier --ignore-unknown --log-level warn --check .",
     "format:fix": "prettier --ignore-unknown --log-level warn --write .",
     "test": "vitest --dom",
-    "test:typecheck": "vitest typecheck"
+    "test:typecheck": "vitest typecheck",
+    "typecheck": "tsc"
   },
   "peerDependencies": {
     "eslint": "^8.55.0",

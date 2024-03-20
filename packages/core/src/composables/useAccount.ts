@@ -12,7 +12,7 @@ export type AccountStatus =
   | 'reconnecting'
 
 /** Value returned from `useAccount`. */
-export type UseAccountResult = {
+export type AccountState = {
   /** The connected account object. */
   account?: AccountInterface
   /** The address of the connected account. */
@@ -34,11 +34,11 @@ export type UseAccountResult = {
 }
 
 /** Arguments for `useAccount` hook. */
-export type UseAccountProps = {
+export type AccountOptions = {
   /** Function to invoke when connected. */
   onConnect?: (args: {
-    address?: UseAccountResult['address']
-    connector?: UseAccountResult['connector']
+    address?: AccountState['address']
+    connector?: AccountState['connector']
   }) => void
   /** Function to invoke when disconnected. */
   onDisconnect?: () => void
@@ -66,11 +66,11 @@ export type UseAccountProps = {
  *   const { account, address, status } = useAccount()
  * </script>
  */
-export function useAccount({ onConnect, onDisconnect }: UseAccountProps = {}) {
+export function useAccount({ onConnect, onDisconnect }: AccountOptions = {}) {
   const { account: connectedAccount } = useStarknetAccount()
   const { connectors } = useConnect()
 
-  const state = ref<UseAccountResult>({ status: 'disconnected' })
+  const state = ref<AccountState>({ status: 'disconnected' })
 
   const handleDisconnectedState = () => {
     if (!state.value.isDisconnected && onDisconnect !== undefined) {

@@ -50,19 +50,19 @@ export function useBalance({
   })
 
   const _queryKey = computed(() => {
-    return queryKey({ chain, contract, token, address })
+    return queryKey({ chain, contract: contract.value, token, address })
   })
 
   const enabled = computed(() => !!(enabled_ && contract && address))
 
   useInvalidateOnBlock({
-    enabled: Boolean(enabled && watch),
-    queryKey: _queryKey,
+    enabled: !!(enabled && watch),
+    queryKey: _queryKey.value,
   })
 
   return useQuery({
     queryKey: _queryKey.value,
-    queryFn: queryFn({ chain, contract, token, address }),
+    queryFn: queryFn({ chain, contract: contract.value, token, address }),
     ...toRef(props),
   })
 }
