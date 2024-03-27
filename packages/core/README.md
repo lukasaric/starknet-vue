@@ -1,13 +1,13 @@
-# `@starknet-react/core`
+# `@starknet-vue/core`
 
-Starknet React is a collection of React hooks for Starknet.
+Starknet Vue is a collection of Vue composables for Starknet.
 
 ## Installation
 
 ```
-npm install @starknet-react/core
+npm install @starknet-vue/core
 # or
-yarn add @starknet-react/core
+yarn add @starknet-vue/core
 ```
 
 ## Documentation
